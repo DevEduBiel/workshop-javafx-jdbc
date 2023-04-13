@@ -1,4 +1,4 @@
-package com.devedubiel.workshopjavafxjdbc.models;
+package com.devedubiel.workshopjavafxjdbc;
 
 import java.io.Serializable;
 

@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="Main View controller">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/MainViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/util/Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/util/Constraints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/About.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/MainViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/MainView.fxml" afterDir="false" />
+    <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="About View">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/MainViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/About.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/About.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -192,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681396648853</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="About View">
+      <created>1681403204647</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681403204647</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +203,7 @@
     <MESSAGE value="Main View" />
     <MESSAGE value="Main View design" />
     <MESSAGE value="Main View controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main View controller" />
+    <MESSAGE value="About View" />
+    <option name="LAST_COMMIT_MESSAGE" value="About View" />
   </component>
 </project>

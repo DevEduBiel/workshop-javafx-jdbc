@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 
 import com.devedubiel.workshopjavafxjdbc.Main;
+import com.devedubiel.workshopjavafxjdbc.controllers.DataChangeListener;
 import com.devedubiel.workshopjavafxjdbc.controllers.util.Alerts;
 import com.devedubiel.workshopjavafxjdbc.controllers.util.Utils;
 import com.devedubiel.workshopjavafxjdbc.model.entities.Department;
@@ -27,7 +28,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 
-public class DepartmentListController implements Initializable {
+public class DepartmentListController implements Initializable, DataChangeListener {
 
     private DepartmentService service;
 
@@ -86,6 +87,7 @@ public class DepartmentListController implements Initializable {
             DepartmentFormController controller = loader.getController();
             controller.setEntity(obj);
             controller.setService(new DepartmentService());
+            controller.subscribeDataChangeList(this);
             controller.updateFormData();
 
             Stage dialogStage = new Stage();
@@ -99,5 +101,10 @@ public class DepartmentListController implements Initializable {
         catch (IOException e){
             Alerts.showAlert("IO Exception", "Error loading view", e.getMessage(), Alert.AlertType.ERROR);
         }
+    }
+
+    @Override
+    public void onDataChange() {
+        updateTableView();
     }
 }

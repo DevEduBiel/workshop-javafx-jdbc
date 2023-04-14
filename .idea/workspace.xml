@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="DepartmentForm (dialog) design">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentForm.fxml" afterDir="false" />
+    <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="DepartmentFormController">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentListController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681493147531</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="DepartmentFormController">
+      <created>1681493645944</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681493645944</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +268,7 @@
     <MESSAGE value="Inicializando ação como parâmetro" />
     <MESSAGE value="Adicionando acesso ao banco de dados" />
     <MESSAGE value="DepartmentForm (dialog) design" />
-    <option name="LAST_COMMIT_MESSAGE" value="DepartmentForm (dialog) design" />
+    <MESSAGE value="DepartmentFormController" />
+    <option name="LAST_COMMIT_MESSAGE" value="DepartmentFormController" />
   </component>
 </project>

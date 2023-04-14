@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="DepartmentService">
+    <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="Inicializando ação como parâmetro">
+      <change afterPath="$PROJECT_DIR$/bd.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/database/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/database/DbException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/database/DbIntegrityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/SellerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/entities/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/entities/Seller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/DepartmentListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/services/DepartmentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/MainViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentList.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,16 +87,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/herod/IdeaProjects/workshop-javafx-jdbc/src/main/java/com/devedubiel/workshopjavafxjdbc&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_directory_selection": "C:/Users/herod/IdeaProjects/workshop-javafx-jdbc/src/main/java/com/devedubiel/workshopjavafxjdbc",
+    "last_opened_file_path": "C:/Users/herod/IdeaProjects/workshop-javafx-jdbc"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc" />
+      <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src\main\java\com\devedubiel\workshopjavafxjdbc" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src\main\resources\com\devedubiel\workshopjavafxjdbc" />
       <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src\main\java\com\devedubiel\workshopjavafxjdbc\controllers" />
@@ -96,6 +114,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.devedubiel.workshopjavafxjdbc" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.devedubiel.workshopjavafxjdbc.model.dao.impl" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.com.devedubiel.workshopjavafxjdbc.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -103,7 +124,7 @@
       <module name="workshop-javafx-jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devedubiel.workshopjavafxjdbc.*" />
+          <option name="PATTERN" value="com.devedubiel.workshopjavafxjdbc.model.entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,7 +137,7 @@
       <module name="workshop-javafx-jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devedubiel.workshopjavafxjdbc.*" />
+          <option name="PATTERN" value="com.devedubiel.workshopjavafxjdbc.model.entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681406119618</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Inicializando ação como parâmetro">
+      <created>1681488358868</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681488358869</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,6 +259,7 @@
     <MESSAGE value="DepartmentList.fxml View" />
     <MESSAGE value="DepartmentList Controller" />
     <MESSAGE value="DepartmentService" />
-    <option name="LAST_COMMIT_MESSAGE" value="DepartmentService" />
+    <MESSAGE value="Inicializando ação como parâmetro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicializando ação como parâmetro" />
   </component>
 </project>

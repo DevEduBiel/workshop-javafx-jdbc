@@ -1,9 +1,12 @@
-package com.devedubiel.workshopjavafxjdbc;
+package com.devedubiel.workshopjavafxjdbc.controllers;
 
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
+import com.devedubiel.workshopjavafxjdbc.Main;
+import com.devedubiel.workshopjavafxjdbc.model.entities.Department;
+import com.devedubiel.workshopjavafxjdbc.services.DepartmentService;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

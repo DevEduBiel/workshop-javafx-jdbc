@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="Salvando um novo Departamento">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/DataChangeListener.java" afterDir="false" />
+    <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="Observer design pattern to update tableview">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/exceptions/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/services/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/services/DepartmentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,6 +85,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.devedubiel.workshopjavafxjdbc.exceptions" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc" />
       <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src\main\java\com\devedubiel\workshopjavafxjdbc" />
@@ -268,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681495027106</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Observer design pattern to update tableview">
+      <created>1681497386859</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681497386859</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,6 +298,7 @@
     <MESSAGE value="DepartmentFormController" />
     <MESSAGE value="Passando um objeto Department para a view DepartmentForm" />
     <MESSAGE value="Salvando um novo Departamento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Salvando um novo Departamento" />
+    <MESSAGE value="Observer design pattern to update tableview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer design pattern to update tableview" />
   </component>
 </project>

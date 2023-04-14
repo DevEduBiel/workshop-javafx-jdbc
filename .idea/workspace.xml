@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="Inicializando ação como parâmetro">
-      <change afterPath="$PROJECT_DIR$/bd.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/database/DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/database/DbException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/database/DbIntegrityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/DaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/SellerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/entities/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/entities/Seller.java" afterDir="false" />
+    <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="Adicionando acesso ao banco de dados">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/util/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/DepartmentListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/services/DepartmentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/MainViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/DepartmentListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/DepartmentListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentList.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -103,8 +91,9 @@
       <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src\main\java\com\devedubiel\workshopjavafxjdbc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src\main\resources\com\devedubiel\workshopjavafxjdbc" />
       <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src\main\java\com\devedubiel\workshopjavafxjdbc\controllers" />
+      <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src" />
+      <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src\main\resources\com\devedubiel\workshopjavafxjdbc" />
       <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src\main\java\com\devedubiel\workshopjavafxjdbc\controllers\util" />
       <recent name="C:\Users\herod\IdeaProjects\workshop-javafx-jdbc\src\main\java\com\devedubiel\workshopjavafxjdbc" />
     </key>
@@ -245,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681488358869</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adicionando acesso ao banco de dados">
+      <created>1681490251404</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681490251404</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -260,6 +256,7 @@
     <MESSAGE value="DepartmentList Controller" />
     <MESSAGE value="DepartmentService" />
     <MESSAGE value="Inicializando ação como parâmetro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicializando ação como parâmetro" />
+    <MESSAGE value="Adicionando acesso ao banco de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando acesso ao banco de dados" />
   </component>
 </project>

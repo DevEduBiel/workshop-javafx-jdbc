@@ -1,7 +1,7 @@
 package com.devedubiel.workshopjavafxjdbc;
 
-import com.devedubiel.workshopjavafxjdbc.services.DepartmentService;
 import com.devedubiel.workshopjavafxjdbc.controllers.util.Alerts;
+import com.devedubiel.workshopjavafxjdbc.model.services.DepartmentService;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;

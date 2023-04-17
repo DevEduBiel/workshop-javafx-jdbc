@@ -8,8 +8,8 @@ module com.devedubiel.workshopjavafxjdbc {
     exports com.devedubiel.workshopjavafxjdbc;
     exports com.devedubiel.workshopjavafxjdbc.model.entities;
     opens com.devedubiel.workshopjavafxjdbc.model.entities to javafx.fxml;
-    exports com.devedubiel.workshopjavafxjdbc.services;
-    opens com.devedubiel.workshopjavafxjdbc.services to javafx.fxml;
+    exports com.devedubiel.workshopjavafxjdbc.model.services;
+    opens com.devedubiel.workshopjavafxjdbc.model.services to javafx.fxml;
     exports com.devedubiel.workshopjavafxjdbc.controllers;
     opens com.devedubiel.workshopjavafxjdbc.controllers to javafx.fxml;
 }

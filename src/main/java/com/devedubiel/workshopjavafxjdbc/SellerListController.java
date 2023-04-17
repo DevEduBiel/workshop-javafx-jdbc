@@ -5,6 +5,7 @@ import com.devedubiel.workshopjavafxjdbc.controllers.util.Alerts;
 import com.devedubiel.workshopjavafxjdbc.controllers.util.Utils;
 import com.devedubiel.workshopjavafxjdbc.database.DbIntegrityException;
 import com.devedubiel.workshopjavafxjdbc.model.entities.Seller;
+import com.devedubiel.workshopjavafxjdbc.model.services.DepartmentService;
 import com.devedubiel.workshopjavafxjdbc.model.services.SellerService;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
@@ -104,7 +105,8 @@ public class SellerListController implements Initializable, DataChangeListener {
 
             SellerFormController controller = loader.getController();
             controller.setSeller(obj);
-            controller.setSellerService(new SellerService());
+            controller.setServices(new SellerService(),new DepartmentService());
+            controller.loadAssociatedObjects();
             controller.subscribeDataChangeListener(this);
             controller.updateFormData();
 

@@ -2,6 +2,7 @@ package com.devedubiel.workshopjavafxjdbc;
 
 import com.devedubiel.workshopjavafxjdbc.controllers.util.Alerts;
 import com.devedubiel.workshopjavafxjdbc.model.services.DepartmentService;
+import com.devedubiel.workshopjavafxjdbc.model.services.SellerService;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -28,7 +29,10 @@ public class MainViewController implements Initializable {
 
     @FXML
     public void onMenuItemSellerAction(){
-        System.out.println("onMenuItemSellerAction");
+        loadView("SellerList.fxml", (SellerListController controller) -> {
+            controller.setSellerService(new SellerService());
+            controller.updateTableView();
+        });;
     }
     @FXML
     public void onMenuItemDepartmentAction() {

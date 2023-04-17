@@ -6,18 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="def54a48-afa1-48e0-9794-d260e48a8a4d" name="Changes" comment="Atualizando departamento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/DepartmentListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/DaoFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/DepartmentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/SellerDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/impl/DepartmentDaoJDBC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/entities/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/model/entities/Seller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/services/DepartmentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/devedubiel/workshopjavafxjdbc/DepartmentList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/util/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devedubiel/workshopjavafxjdbc/controllers/util/Alerts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681498657075</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Atualizando departamento">
+      <created>1681737720994</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681737720994</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -316,6 +313,7 @@
     <MESSAGE value="Salvando um novo Departamento" />
     <MESSAGE value="Observer design pattern to update tableview" />
     <MESSAGE value="Validation exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validation exception" />
+    <MESSAGE value="Atualizando departamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizando departamento" />
   </component>
 </project>
